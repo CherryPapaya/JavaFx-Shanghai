@@ -28,6 +28,7 @@ public class Data {
             System.out.println("Year: " + year + ", Rank: " + rank);
         });
     }
+
     public InputStream getFile() {
         return getClass().getClassLoader().getResourceAsStream("data.txt");
     }
